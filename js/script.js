@@ -3,7 +3,7 @@ $(function() {
 
   // Slider
   $('#coin-slider').coinslider({width:960,height:320,opacity:1});
-$('#coin-sliderG').coinslider({width:900,height:700,opacity:1});
+$('#coin-sliderG').coinslider({width:960,height:700,opacity:1});
   // Radius Box
   $('.menu_nav ul li a, .content .mainbar img.fl, p.infopost a.com, .content p.pages span, .content p.pages a').css({"border-radius":"6px", "-moz-border-radius":"6px", "-webkit-border-radius":"6px"});
   $('.content .sidebar .gadget, .fbg_resize').css({"border-radius":"12px", "-moz-border-radius":"12px", "-webkit-border-radius":"12px"});
