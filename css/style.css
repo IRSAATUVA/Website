@@ -151,6 +151,11 @@ h1 small {
 	padding:0;
 	width:960px;
 }
+.content_resizeG {
+	margin:0 auto;
+	padding:0;
+	width:auto;
+}
 .content .mainbar {
 	margin:0;
 	padding:0;
