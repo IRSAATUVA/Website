@@ -11,7 +11,11 @@ $(function() {
   $('.content .sidebar h2').css({"border-top-left-radius":"12px", "border-top-right-radius":"12px", "-moz-border-radius-topleft":"12px", "-moz-border-radius-topright":"12px", "-webkit-border-top-left-radius":"12px", "-webkit-border-top-right-radius":"12px"});
 
 });	
-
+    $(document).ready(function(){	
+        var sudoSlider = $("#slider").sudoSlider({
+            // Autoheight is on per default.
+        });
+    });
 // Cufon
 Cufon.replace('h1, h2, h3, h4, h5, h6, .menu_nav ul li a', { hover: true });
 //Cufon.replace('h1', { color: '-linear-gradient(#fff, #ffaf02)'});
