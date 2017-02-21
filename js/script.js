@@ -6,6 +6,8 @@ $(function() {
   $('#Gimg1').coinslider({
     width: 100, // width of slider panel
     height: 100, // height of slider panel
+    // Resize picture.
+$('.cs-Gimg1').css('background-size', '100px 100px');
 });
   // Radius Box
   $('.menu_nav ul li a, .content .mainbar img.fl, p.infopost a.com, .content p.pages span, .content p.pages a').css({"border-radius":"6px", "-moz-border-radius":"6px", "-webkit-border-radius":"6px"});
